@@ -14,6 +14,17 @@ export default function LabIndex() {
       <Link testID="link-case-3" href="/lab/counter-theme-via-util" style={styles.link}>
         Case 3 — THEME consumed by a non-React util
       </Link>
+
+      <Text style={styles.title}>Layout Parity Lab</Text>
+      <Link testID="link-card-row" href="/lab/card-row-wrap" style={styles.link}>
+        Part 1 — wrapping card row, ported from CSS
+      </Link>
+      <Link testID="link-chat-row" href="/lab/chat-bubble-row" style={styles.link}>
+        Part 2 — chat bubble row
+      </Link>
+      <Link testID="link-chat-defaults" href="/lab/chat-row-defaults" style={styles.link}>
+        Part 2 — the same row with defaults left un-ported
+      </Link>
     </View>
   );
 }
