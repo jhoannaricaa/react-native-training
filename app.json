@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "react-native-training",
+    "slug": "react-native-training",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "rntraining",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "web": {
+      "output": "static"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
