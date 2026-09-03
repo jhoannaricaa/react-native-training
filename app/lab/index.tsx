@@ -30,12 +30,23 @@ export default function LabIndex() {
       <Link testID="link-note-composer" href="/lab/note-composer" style={styles.link}>
         FieldKit — note composer
       </Link>
+
+      <Text style={styles.title}>Pressables & Touch Targets Lab</Text>
+      <Link testID="link-press-kit" href="/lab/press-kit" style={styles.link}>
+        AppButton — variants, blocked states, press latency
+      </Link>
+      <Link testID="link-icon-target" href="/lab/icon-target" style={styles.link}>
+        A 24pt glyph that reaches 44/48
+      </Link>
+      <Link testID="link-clipping" href="/lab/hit-target-clipping" style={styles.link}>
+        Bug repro — a target outside its parent&apos;s bounds
+      </Link>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, gap: 16, padding: 24 },
+  container: { flex: 1, gap: 14, padding: 24 },
   title: { fontSize: 24, fontWeight: '700' },
   link: { fontSize: 16, color: '#0a7ea4' },
 });
