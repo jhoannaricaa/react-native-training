@@ -26,6 +26,10 @@ export type ColorScheme = 'light' | 'dark';
 /** Brand colour, deliberately not semantic: an unread dot must not restyle itself per OS. */
 export const UNREAD_DOT = '#E5484D';
 
+/** Same brand red, different job: an invalid field border. Named separately so a future
+ *  palette change can move one without dragging the other along. */
+export const DANGER = '#E5484D';
+
 const dynamic = (role: ColorRole) =>
   DynamicColorIOS({ light: HEX.light[role], dark: HEX.dark[role] });
 

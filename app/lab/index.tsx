@@ -25,6 +25,11 @@ export default function LabIndex() {
       <Link testID="link-chat-defaults" href="/lab/chat-row-defaults" style={styles.link}>
         Part 2 — the same row with defaults left un-ported
       </Link>
+
+      <Text style={styles.title}>Keyboard & Forms Lab</Text>
+      <Link testID="link-note-composer" href="/lab/note-composer" style={styles.link}>
+        FieldKit — note composer
+      </Link>
     </View>
   );
 }
