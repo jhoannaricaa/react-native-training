@@ -41,6 +41,17 @@ export default function LabIndex() {
       <Link testID="link-clipping" href="/lab/hit-target-clipping" style={styles.link}>
         Bug repro — a target outside its parent&apos;s bounds
       </Link>
+
+      <Text style={styles.title}>Long Lists Lab</Text>
+      <Link testID="link-rows-scrollview" href="/lab/rows-scrollview" style={styles.link}>
+        5,000 rows in a ScrollView
+      </Link>
+      <Link testID="link-rows-flatlist" href="/lab/rows-flatlist" style={styles.link}>
+        The same 5,000 rows in a FlatList
+      </Link>
+      <Link testID="link-contacts" href="/lab/contacts" style={styles.link}>
+        Converted — keyExtractor, separators, pull-to-refresh
+      </Link>
     </View>
   );
 }
